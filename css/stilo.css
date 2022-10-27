@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.fondo {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+
+}
+
+
+
+
+.logo {
+    width: 200px;
+    height: 80px;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    font-size: 1rem;
+    color: black;
+    font-size: 20px;
+    box-shadow: 30px;
+
+}
+
+.header {
+    background-color: rgb(211, 23, 23);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 90%;
+
+}
+
+
+.header-nav {
+    width: 50%;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.titulo {
+    color: rgb(10, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+
+}
+
+
+
+.portada_text {
+    padding: 15px;
+    font-size: 2rem;
+    display: flex;
+    align-self: center;
+
+}
+
+
+.parrafo1 {
+    color: white;
+    font-size: 1rem;
+}
+
+.a {
+    border: 2px solid black;
+}
+
+.text {
+    margin-block-end: 14px;
+
+}
+
+.parrafo {
+    color: rgba(253, 253, 253, 0.986);
+    background-color: rgb(0, 0, 0);
+    font-size: 2rem;
+    float: right;
+}
+
+.section2 {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+
+    background-attachment: fixed;
+    padding: 100px
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjeta {
+    border: 4px solid white;
+    width: 170px;
+    height: 390px;
+    padding: 1px;
+    text-align: center;
+    color: greenyellow;
+    background-color: black;
+
+
+}
+
+.lg {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.svg {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(250, 14, 14);
+
+
+}
+
+/* FOOTER */
+.pie {
+    background-color: rgb(211, 23, 23);
+    opacity: 70%;
+    display: grid;
+}
+
+.piea {
+    background-color: rgb(211, 23, 23);
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.lol {
+    transition-duration: 2s;
+}
+
+.lol:hover {
+
+    transform: rotate(360deg);
+    border-radius: 15px;
+
+
+}
+
+.lil {
+    transition-duration: 2s;
+}
+
+.lil:hover {
+    transform: rotate(360deg);
+    border-radius: 15px;
+
+}
+
+.caja2 {
+    display: flex;
+    align-items: center;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.foter {
+    color: white;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foter2 {
+    color: white;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.foterb {
+    display: flex;
+    justify-content: space-between
+}
+
+.fotera {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.foterc {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.parrafofter {
+    color: black;
+}
+
+/*CREAR PROD*/
+
+.fondo2 {
+    background-image: url(../img/exposicion-guitarras0006-780x470.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+}
+
+
+.ppp {
+    font-size: 1rem;
+    color: white;
+    padding: 10px;
+}
+
+.pppa {
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+
+}
+
+.form {
+    color: rgb(81, 255, 0);
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.322);
+    font-weight: bold;
+
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+
+}
+
+/*Productos*/
+
+
+.fondo3 {
+    background-image: url(../img/ge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.tarjetas {
+    border: 1px solid white;
+    width: 170px;
+    height: 290px;
+    padding: 1px;
+    text-align: center;
+    color: greenyellow;
+    background-color: black;
+
+}
+
+
+.tarjeta_art {
+    text-align: center;
+    padding: 100px;
+}
+
+.tarjeta_img {
+    width: 165px;
+    height: 200px;
+}
+
+
+.tarjeta_title {
+    text-align: center;
+}
+
+.titlea {
+    display: flex;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+
+.botonc {
+    display: flex;
+    justify-content: center;
+    color: red;
+    border: 1px solid red;
+    box-sizing: border-box;
+    background-color: red;
+    border-radius: 15px;
+}
+
+.boronc {
+    display: flex;
+    justify-content: center;
+}
+
+.botonc:hover {
+    display: flex;
+    justify-content: center;
+    color: red;
+    border: 1px solid rgb(77, 204, 45);
+    box-sizing: border-box;
+    background-color: rgb(77, 204, 45);
+    border-radius: 15px;
+}
+
+.slider {
+    height: 340px;
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+}
+
+
+
+/*CONTACTOS*/
+.fondo4 {
+    background-image: url(../img/fondo4.jpg);
+    background-repeat: repeat;
+    background-position: cover;
+    width: 100%;
+    display: grid;
+}
+
+.contform{
+    display: grid;
+    
+    
+}
+
+.formulario {
+    width: 450px;
+    margin: auto;
+    background-color: rgba(255, 4, 4, 0.664);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.labels {
+    font-size: 2rem;
+}
+
+
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+}
+
+textarea {
+    width: 300px;
+}
+
+#botoncito {
+    width: 100px;
+    height: 30px;
+}
+
+#botoncito:hover {
+    background-color: rgb(0, 0, 0);
+    color: red;
+}
+
+.imaa {
+    display: flex;
+    justify-content: center;
+}
+
+/*NOSOTROS*/
+
+.bodycont {
+    background-image: url(../img/9761f730391cfea82170cb9cc7646887.jpg);
+    background-repeat: none;
+    background-size: cover;
+    display: grid;
+
+}
+
+
+
+.imglofo {
+    width: 50px;
+    display: flex;
+}
+
+.title {
+    display: flex;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+
+.b {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bb {
+    display: flex;
+
+}
+
+.ul {
+    display: flex;
+    justify-content: end;
+    gap: 14px;
+    list-style: none;
+    padding: 14px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+
+
+.h3 {
+    color: rgb(255, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+
+
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+.arit {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pp {
+    color: white;
+
+}
+
+hr {
+    color: red;
+}
+
+@media (max-width: 980px) {
+    ul.ul {
+        display: inline-flex;
+    }
+
+    .head {
+        flex-direction: column;
+        font-size: 2rem;
+        border-radius: 14px;
+    }
+
+    .ppp {
+        font-size: 1rem;
+    }
+
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+}
+
+@media (max-width: 490px) {
+    .fondo3 {
+        display: grid;
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
