@@ -7,9 +7,10 @@
 a {
   text-decoration: none;
   color: black;
-}
-a:hover {
-  color: rgb(255, 255, 255);
+
+  &:hover {
+    color: rgb(255, 255, 255);
+  }
 }
 
 .fondo {
@@ -54,13 +55,13 @@ ul {
 
 .titulo {
   color: rgb(10, 0, 0);
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
 
 h2 {
   color: rgb(255, 255, 255);
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   font-size: 3rem;
   padding: 20px;
@@ -130,6 +131,7 @@ h2 {
 }
 
 /* FOOTER */
+
 .pie {
   background-color: rgb(211, 23, 23);
   opacity: 70%;
@@ -145,10 +147,11 @@ h2 {
 
 .lol, .lil {
   transition-duration: 2s;
-}
-.lol:hover, .lil:hover {
-  transform: rotate(360deg);
-  border-radius: 15px;
+
+  &:hover {
+    transform: rotate(360deg);
+    border-radius: 15px;
+  }
 }
 
 .caja2 {
@@ -196,6 +199,7 @@ h2 {
 }
 
 /*CREAR PROD*/
+
 .fondo2 {
   background-image: url(../img/exposicion-guitarras0006-780x470.jpg);
   background-repeat: no-repeat;
@@ -235,6 +239,7 @@ h2 {
 }
 
 /*Productos*/
+
 .fondo3 {
   background-image: url(../img/ge.jpg);
   background-repeat: no-repeat;
@@ -267,7 +272,7 @@ h2 {
 
 .titlea {
   display: flex;
-  font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 3rem;
 }
 
@@ -304,6 +309,7 @@ h2 {
 }
 
 /*CONTACTOS*/
+
 .fondo4 {
   background-image: url(../img/fondo4.jpg);
   background-repeat: repeat;
@@ -343,10 +349,11 @@ textarea {
 #botoncito {
   width: 100px;
   height: 30px;
-}
-#botoncito:hover {
-  background-color: rgb(0, 0, 0);
-  color: red;
+
+  &:hover {
+    background-color: rgb(0, 0, 0);
+    color: red;
+  }
 }
 
 .imaa {
@@ -355,6 +362,7 @@ textarea {
 }
 
 /*NOSOTROS*/
+
 .bodycont {
   background-image: url(../img/9761f730391cfea82170cb9cc7646887.jpg);
   background-repeat: none;
@@ -369,7 +377,7 @@ textarea {
 
 .title {
   display: flex;
-  font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 3rem;
 }
 
@@ -399,7 +407,7 @@ textarea {
 
 .h3 {
   color: rgb(255, 0, 0);
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
   font-size: 3rem;
   padding: 20px;
@@ -427,29 +435,32 @@ hr {
   ul.ul {
     display: inline-flex;
   }
+
   .head {
     flex-direction: column;
     font-size: 2rem;
     border-radius: 14px;
   }
+
   .ppp {
     font-size: 1rem;
   }
+
   .container-fluid {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
 }
+
 @media (max-width: 490px) {
   .fondo3 {
     display: grid;
   }
+
   .slider {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
-
-/*# sourceMappingURL=stilo.css.map */
